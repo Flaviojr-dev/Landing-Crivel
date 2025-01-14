@@ -68,7 +68,7 @@ nav {
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     gap: 2rem;
     background-color: var(--primary-color);
@@ -76,6 +76,7 @@ nav {
     z-index: -1;
     transform: translateY(-100%);
 }
+
 
 .nav__links.open {
     transform: translateY(0);
@@ -388,7 +389,7 @@ nav {
 }
 
 @media (width < 768px) {
-    img  {
+    .header__image  {
         display: none;
     }
 }
