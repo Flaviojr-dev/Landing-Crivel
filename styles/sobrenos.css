@@ -1,0 +1,133 @@
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00a39a;
+    color: white;
+    padding: 20px 100px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.texto {
+    max-width: 50%;
+}
+
+.texto h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.imagem img {
+    height: auto;
+    width: 500px;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .sobre-nos {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .texto {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .texto h2 {
+        font-size: 3rem;
+    }
+
+    .texto p {
+        font-size: 1.1rem;
+    }
+
+    .imagem img {
+        width: 400px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .texto h2 {
+        font-size: 2.5rem;
+    }
+
+    .texto p {
+        font-size: 1rem;
+    }
+
+    .imagem img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sobre-nos {
+        padding: 15px;
+    }
+
+    .texto h2 {
+        font-size: 2rem;
+    }
+
+    .texto p {
+        font-size: 0.9rem;
+    }
+
+    .imagem img {
+        width: 250px;
+    }
+.pg_sobrenos{
+    background-color:#0DA9A9 ;
+    color: white;
+    margin-top: 70px;
+}
+.caixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.caixa2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-bottom: auto;
+}
+.sobrenos{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.txt_sobrenos{
+    display: flex;
+    width: 600px;
+    font-size: 18px;
+    flex: 1;
+    
+}
+.portodigital {
+    width: 170px;
+    height: auto; 
+    margin-top: 10px;
+    right: 10px;
+    
+}
+.img_sobrenos{
+    width: 500px;
+    height: auto;
+    align-items: end;
+    display: flex;
+    margin-top: 100px;
+}

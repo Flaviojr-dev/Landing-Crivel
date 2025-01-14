@@ -1,0 +1,129 @@
+main {
+    /* background-image: url('../img/fundo.PNG'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 120px;
+}
+
+.container {
+    width: 100%;
+    max-width: 807.8px;
+    height: auto;
+    background-color: var(--cor-verde-principal);
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 12.6px;
+    padding: 20px;
+}
+
+.container h2 {
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px;
+    padding: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 100%; 
+}
+
+.icon {
+    background-color: #007f7f;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px; 
+    flex-shrink: 0;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.content h3 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.content p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.saiba-mais {
+    grid-column: 1 / -1; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.saiba-mais button {
+    background-color: var(--cor-verde-escuro);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.saiba-mais button:hover {
+    background-color: #008888;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cards-wrapper {
+        grid-template-columns: 1fr; 
+    }
+
+    .container {
+        padding: 15px;
+        margin:  0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container h2 {
+        font-size: 1.5rem;
+    }
+
+    .content h3 {
+        font-size: 16px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .saiba-mais button {
+        padding: 10px 20px;
+    }
+}

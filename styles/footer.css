@@ -1,0 +1,104 @@
+.footer-container-servicos {
+    background-color: var(--cor-verde-escuro);
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 100px 50px;
+    margin-top: 200px
+}
+
+.footer-top-servicos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff50;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logo-servicos {
+    max-height: 50px;
+}
+
+.footer-slogan-servicos {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer-socials-servicos a {
+    margin: 0 10px;
+}
+
+.footer-socials-servicos img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-main-servicos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-column-servicos {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column-servicos h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-column-servicos p, .footer-column-servicos li {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.footer-column-servicos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column-servicos ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.footer-column-servicos ul li a:hover {
+    color: #00d4ff;
+}
+
+.footer-lgpd-servicos {
+    max-width: 100px;
+    margin-top: 10px;
+}
+
+.footer-bottom-servicos {
+    text-align: center;
+    font-size: 0.8em;
+    border-top: 1px solid #ffffff50;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-top-servicos {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-main-servicos {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-column-servicos {
+        min-width: unset;
+    }
+}

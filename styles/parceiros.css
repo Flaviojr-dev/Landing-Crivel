@@ -1,0 +1,75 @@
+/* Container principal */
+.parceiros-container-servicos {
+    text-align: center;
+    padding: 50px;
+    background-color: #009688;
+    margin: auto;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+/* Título da seção */
+.titulo-parceiros-servicos {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Container de logos */
+.logos-parceiros-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Logos individuais */
+.logo-parceiro-servicos {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    max-height: 50px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.logo-parceiro-servicos:hover {
+    transform: scale(1.1);
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+    .titulo-parceiros-servicos {
+        font-size: 1.5em;
+    }
+
+    .logo-parceiro-servicos {
+        width: 120px;
+        max-height: 40px;
+    }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+    .titulo-parceiros-servicos {
+        font-size: 1.2em;
+    }
+
+    .logo-parceiro-servicos {
+        width: 100px;
+        max-height: 35px;
+    }
+}
+
+/* Responsividade para telas menores que 480px */
+@media (max-width: 320px) {
+    .titulo-parceiros-servicos {
+        font-size: 1em;
+    }
+
+    .logo-parceiro-servicos {
+        width: 80px;
+        max-height: 30px;
+    }
+}
