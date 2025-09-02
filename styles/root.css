@@ -1,3 +1,6 @@
+body {
+    padding-top: 48px;
+}
 :root {
     --cor-verde-principal: #0DA9A9;
     --cor-verde-escuro: #0F9292;

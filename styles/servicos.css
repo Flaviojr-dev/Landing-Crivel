@@ -47,6 +47,13 @@ body {
 .card-servicos:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    background: #009688;
+    color: #fff;
+}
+
+.card-servicos:hover .titulo-card-servicos,
+.card-servicos:hover .descricao-card-servicos {
+    color: #fff;
 }
 
 

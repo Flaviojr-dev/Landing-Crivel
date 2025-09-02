@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/banner.css" />
     <link rel="stylesheet" href="styles/sobrenos.css">
     <link rel="stylesheet" href="styles/servicos.css">
-    <link rel="stylesheet" href="styles/parceiros.css">
+    
     <link rel="stylesheet" href="styles/diferenciais.css">
     <link rel="stylesheet" href="styles/root.css">
     <link rel="stylesheet" href="styles/footer.css">
@@ -17,6 +18,10 @@
 </head>
 
 <body>
+
+    <div class="banner-frase-inicial">
+        VoIP Barato, com URA e Discador Grátis! Aproveite!
+    </div>
 
 
     <nav>
@@ -35,7 +40,7 @@
         <ul class="nav__links" id="nav-links">
             <li><a href="#quemsomos">Quem somos</a></li>
             <li><a href="#servicos">Nossos serviços</a></li>
-            <li><a href="#parceiros">Parceiros</a></li>
+            
             <li><a href="#diferenciais">Diferenciais</a></li>
             <li><a href="#contato">Contato</a></li>
         </ul>
@@ -72,7 +77,7 @@
     <section id="servicos" class="servicos-container-servicos">
         <h1 class="titulo-servicos">Veja nossos serviços</h1>
         <div class="grid-servicos">
-            <div class="card-servicos destaque-servicos">
+            <div class="card-servicos">
                 <h2 class="titulo-card-servicos">Rotas de voz Premium SEM SPAM</h2>
                 <p class="descricao-card-servicos">Garantem alta qualidade, sem spam, para comunicações claras, confiáveis e com maior percentual de atendimento do mercado.</p>
             </div>
@@ -113,105 +118,112 @@
         </div>
     </section>
 
-    <!-- <section id="parceiros" class="parceiros-container-servicos">
-        <h2 class="titulo-parceiros-servicos">Nossos principais parceiros</h2>
-        <div class="logos-parceiros-servicos">
-            <img src="assets/logo-avel-xp-31 1.png" alt="Parceiro 1" class="logo-parceiro-servicos">
-            <img src="assets/logo 1.png" alt="Parceiro 2" class="logo-parceiro-servicos">
-            <img src="assets/Artboard-3 1.png" alt="Parceiro 3" class="logo-parceiro-servicos">
-            <img src="assets/logo-white 1.png" alt="Parceiro 4" class="logo-parceiro-servicos">
-            <img src="assets/cropped-cropped-fiducial-cinza-removebg-preview 1.png" alt="Parceiro 5"
-                class="logo-parceiro-servicos">
-            <img src="assets/SENIOR_logo_original_vetorized_inline_original_vetorized_inline-2 1.png" alt="Parceiro 6"
-                class="logo-parceiro-servicos">
-        </div>
-    </section> -->
+    
 
     <main id="diferenciais">
         <div class="container">
             <h2>Os nossos diferenciais</h2>
 
             <div class="cards-wrapper">
-                <!-- Controle -->
                 <div class="card">
                     <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px"
-                            height="24px">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h3>Controle</h3>
-                        <p>Audite sua equipe com relatórios gerenciais, gravações supervisionadas e pesquisas de satisfação.</p>
+                        <p>Auditoria completa da equipe com relatórios, gravações e pesquisas de satisfação.</p>
                     </div>
                 </div>
-
-                <!-- Flexibilidade -->
                 <div class="card">
                     <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px"
-                            height="24px">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h3>Produtividade</h3>
-                        <p>Nossas interconexões são diretas com as maiores operadoras do planeta, garantindo alta qualidade.</p>
+                        <p>Interconexões diretas com grandes operadoras, garantindo alta performance.</p>
                     </div>
                 </div>
-
-                <!-- Produtividade -->
                 <div class="card">
                     <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px"
-                            height="24px">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h3>Simplicidade</h3>
-                        <p>Contrate, configure e opere facilmente.</p>
+                        <p>Contratação, configuração e operação descomplicadas.</p>
                     </div>
                 </div>
-
-                <!-- Baixo Custo -->
                 <div class="card">
                     <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px"
-                            height="24px">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
+                        </svg>
+                    </div>
+                    <div class="content">
+                        <h3>Suporte 24h</h3>
+                        <p>Atendimento técnico disponível 24 horas por dia, 7 dias por semana.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
+                        </svg>
+                    </div>
+                    <div class="content">
+                        <h3>Integração Multicanal</h3>
+                        <p>Conecte sua operação a WhatsApp, SMS, e e-mail em uma única plataforma.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
+                            <path d="M0 0h24v24H0z" fill="none" />
+                            <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
+                        </svg>
+                    </div>
+                    <div class="content">
+                        <h3>Relatórios Inteligentes</h3>
+                        <p>Relatórios detalhados e análises inteligentes para decisões rápidas.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h3>Segurança</h3>
-                        <p>Infraestrutura 100% no Google Cloud Platform - com a mais alta tecnologia e a segurança robusta garantida pelos melhores data centers do mundo.</p>
+                        <p>Infraestrutura 100% Google Cloud Platform, máxima tecnologia e proteção.</p>
                     </div>
                 </div>
-
-                <!-- Simplicidade -->
                 <div class="card">
                     <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px"
-                            height="24px">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h3>Atendimento Humanizado</h3>
-                        <p>Ao ligar para Crível, você sempre fala com pessoas reais e preparadas.</p>
+                        <p>Você sempre fala com pessoas reais e preparadas.</p>
                     </div>
                 </div>
-
-                <!-- Qualidade -->
                 <div class="card">
                     <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px"
-                            height="24px">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
                         </svg>
@@ -221,27 +233,21 @@
                         <p>Preço justo, transparência total e honestidade sempre presentes.</p>
                     </div>
                 </div>
-
-                <!-- Qualidade -->
                 <div class="card">
                     <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px"
-                            height="24px">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24px" height="24px">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M9 16.2l-3.5-3.5 1.4-1.4L9 13.4l7.1-7.1 1.4 1.4L9 16.2z" />
                         </svg>
                     </div>
                     <div class="content">
                         <h3>Liberdade</h3>
-                        <p>Total liberdade, sem multas contratuais garantimos a sua satisfação ou seu dinheiro de volta.</p>
+                        <p>Sem multas contratuais: satisfação garantida ou seu dinheiro de volta.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Botão Saiba Mais, abaixo de "Qualidade" -->
-            <div class="saiba-mais">
-                <button><a style="color: white;" href="https://wa.me/5585981813377?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Cr%C3%ADvel%20Telecom!" target="_blank">Saiba Mais</a></button>
-            </div>
+            
         </div>
 
         <footer id="contato" class="footer-container-servicos">
@@ -261,7 +267,7 @@
                     <ul>
                         <li><a href="#">Quem somos</a></li>
                         <li><a href="#">Nossos serviços</a></li>
-                        <li><a href="#">Parceiros</a></li>
+                        
                         <li><a href="#">Diferenciais</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
@@ -273,10 +279,7 @@
                     33.901.726/0001-54</p>
             </div>
         </footer>
-        <a href="https://wa.me/5585981813377?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20Cr%C3%ADvel%20Telecom!" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
-        z-index:1000;" target="_blank">
-        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
-        </a>
+
     </main>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>

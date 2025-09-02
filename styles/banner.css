@@ -1,0 +1,32 @@
+/* Banner/frase inicial responsivo */
+.banner-frase-inicial {
+    width: 100%;
+    background: #009688;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+@media (max-width: 768px) {
+    .banner-frase-inicial {
+        font-size: 1em;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-frase-inicial {
+        font-size: 0.9em;
+        padding: 8px 0;
+    }
+}
