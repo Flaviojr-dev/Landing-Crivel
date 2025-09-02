@@ -1,5 +1,26 @@
+html {
+    scroll-behavior: smooth;
+}
+#quemsomos {
+    scroll-margin-top: 70px;
+}
+section, main, footer, .sobre-nos, .servicos-container-servicos, .container {
+    scroll-margin-top: 70px;
 body {
-    padding-top: 48px;
+    padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-top: 22px;
+    }
+}
 }
 :root {
     --cor-verde-principal: #0DA9A9;

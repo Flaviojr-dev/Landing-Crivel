@@ -302,6 +302,9 @@ nav {
         padding: 0;
         background-color: transparent;
     }
+    .nav__logo {
+        margin-top: 24px;
+    }
 
     .nav__logo a {
         color: var(--text-dark);
@@ -424,5 +427,13 @@ nav {
 
     .nav__logo-mobile {
         display: block;
+    }
+
+    .nav__logo {
+        margin-top: 24px;
+    }
+
+    .nav__links li:first-child {
+        margin-top: 32px;
     }
 }
