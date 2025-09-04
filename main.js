@@ -50,3 +50,37 @@ ScrollReveal().reveal(".header__image__card", {
   interval: 500,
   delay: 2500,
 });
+
+// Botão de voltar ao topo
+document.addEventListener("DOMContentLoaded", function() {
+  const backToTopBtn = document.getElementById("backToTop");
+  window.addEventListener("scroll", function() {
+    if (window.scrollY > 300) {
+      backToTopBtn.style.display = "block";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  });
+  backToTopBtn.addEventListener("click", function() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  // Rolagem suave para seções ao clicar nos links do mapa do site no footer
+  document.querySelectorAll('.footer-column-servicos ul li a').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      let href = link.textContent.trim().toLowerCase();
+      let targetId = '';
+      if (href.includes('quem somos')) targetId = 'quemsomos';
+      else if (href.includes('nossos serviços')) targetId = 'servicos';
+      else if (href.includes('diferenciais')) targetId = 'diferenciais';
+      else if (href.includes('contato')) targetId = 'contato';
+      if (targetId) {
+        e.preventDefault();
+        const target = document.getElementById(targetId);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    });
+  });
+});

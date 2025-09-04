@@ -1,0 +1,20 @@
+#backToTop {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    z-index: 9999;
+    background: var(--cor-verde-principal);
+    color: var(--white);
+    border: none;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+#backToTop:hover {
+    background: var(--cor-verde-principal);
+}
