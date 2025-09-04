@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 40px;
     right: 40px;
-    display: none;
+        display: none;
     z-index: 9999;
     background: var(--cor-verde-principal);
     color: var(--white);
@@ -17,4 +17,15 @@
 }
 #backToTop:hover {
     background: var(--cor-verde-principal);
+}
+
+@media (max-width: 768px) {
+    #backToTop {
+        right: 16px;
+        bottom: 16px;
+        width: 44px;
+        height: 44px;
+        font-size: 20px;
+        display: block !important;
+    }
 }

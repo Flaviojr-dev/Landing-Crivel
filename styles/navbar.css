@@ -75,7 +75,7 @@ nav {
     justify-content: flex-end;
     flex-direction: column;
     gap: 2rem;
-    background-color: var(--primary-color);
+    background-color: var(--cor-verde-principal);
     transition: 0.5s;
     z-index: -1;
     transform: translateY(-100%);
